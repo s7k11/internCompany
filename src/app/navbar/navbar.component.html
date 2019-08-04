@@ -1,0 +1,120 @@
+<!-- <div class="container=fluid">
+    <div class="row">
+        <div class="col-lg-3 md-lg-6 offset-lg-3 md-lg-6 offset-lg-3" style="border: 1px solid black; height: 10px;;"></div>
+    </div>
+</div> -->
+
+
+
+<!-- ////////////////////////////// TOP BAR /////////////////////////////////////////// -->
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent col-lg-10 offset-lg-2 col-md-11 col-sm-11 offset-md-1 offset-sm-1">
+    <a class="navbar-brand offset-lg-0 offset-md-0 offset-sm-1" href="#" style="font-size: 120%; font-weight: bold; font-family: 'Cinzel', serif; color: white;">INTERN NEXUS</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <form class="form-inline my-2 my-lg-0 offset-lg-0 offset-md-0 offset-sm-1">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" style="width: 600px;">
+            <button class="btn btn-outline-dark my-2 my-sm-0 bg-light" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <a [routerLink]="['/events']"><i class=" offset-lg-0 offset-md-0 offset-sm-1 far fa-bell offset-lg-1" style="font-size: 2em;color: white;" ></i> </a>
+
+        <div class="offset-lg-1 offset-lg-0 offset-md-0 offset-sm-1"> <img src="../../assets/images/images.jpg" width="50px;" height="50px;" style="border-radius: 50px;"> </div>
+        <span class="offset-lg-0 offset-md-0 offset-sm-1" style="color: white;"> Admin </span>
+    </div>
+</nav>
+<!-- //////////////////////////// SIDE BAR ////////////////////////////////////////// -->
+<!-- <div class="area"></div> -->
+<nav class="main-menu position-fixed">
+    <ul>
+
+        <li class="has-subnav">
+            <a [routerLink]="['/']">
+                <i class="fa fa-home fa-2x"></i>
+                <span class="nav-text">
+                        Dashboard
+                    </span>
+            </a>
+
+            <li class="has-subnav">
+                <a [routerLink]="['/course']">
+                    <i class="fa fa-laptop fa-2x"></i>
+                    <span class="nav-text">
+                    Course
+                </span>
+                </a>
+
+            </li>
+            <!-- <li class="has-subnav">
+                <a [routerLink]="['/test']">
+                    <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                    Test
+                </span>
+                </a>
+
+            </li> -->
+            <li class="has-subnav">
+                <a [routerLink]="['/event']">
+                    <i class="fa fa-folder-open fa-2x"></i>
+                    <span class="nav-text">
+                    Events
+                </span>
+                </a>
+
+            </li>
+            <li>
+                <a [routerLink]="['/forums']">
+                    <i class="fa fa-font fa-2x"></i>
+                    <span class="nav-text">
+                   Forum
+                </span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/project']">
+                    <i class="fa fa-table fa-2x"></i>
+                    <span class="nav-text">
+                    Project List
+                </span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/user']">
+                    <i class="fa fa-table fa-2x"></i>
+                    <span class="nav-text">
+                    User
+                </span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/company']">
+                    <i class="fa fa-table fa-2x"></i>
+                    <span class="nav-text">
+                   Company
+                </span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/suggestion']">
+                    <i class="fa fa-font fa-2x"></i>
+                    <span class="nav-text">
+                        Suggestion
+                </span>
+                </a>
+            </li>
+    </ul>
+
+    <ul class="logout">
+        <li>
+            <a href="#">
+                <i class="fa fa-power-off fa-2x"></i>
+                <span class="nav-text"> 
+                    Logout
+                </span>
+            </a>
+        </li>
+    </ul>
+</nav>

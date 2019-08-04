@@ -1,0 +1,21 @@
+.image1 {
+    width: 40%;
+    float: right;
+    padding: 30px;
+    clip-path: circle();
+    shape-outside: circle();
+}  .img:hover {
+        box-shadow: 0 0 10px 5px teal;
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        transition-timing-function: linear;
+    }
+    
+    .outer:hover,
+    .text:hover {
+        transition: 0.3s ease-in-out;
+    } 
+   .outer{
+       margin: 30px !important;
+       margin-left:100px !important;
+   }

@@ -1,0 +1,24 @@
+
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-group{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: #212F3C ;
+    font-weight: initial;
+}
+
+.good{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+}
+
+.help{
+    width: 100%;
+    border:1px solid #ffffff;
+}

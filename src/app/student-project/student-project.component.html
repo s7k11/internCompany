@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <form>
+      <div class="form-row">
+        <div class="col">
+          <label>Project Name </label>
+          <input type="text" class="form-control" placeholder="Course name">
+        </div>
+        <div class="col">
+          <label>Project image </label>
+          <input type="file" class="form-control">
+        </div>
+        <div class="col">
+          <label>Project Description </label>
+          <input type="file" class="form-control" placeholder="Project Description">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Project</button>
+    </form>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Project Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <button class="btn btn-primary" (click)="delete()">Delete</button>
+        <button class="btn btn-primary" (click)="update()">Update</button>
+      </div>
+    </div>
+  </div>
+</div>

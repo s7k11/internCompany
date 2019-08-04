@@ -1,0 +1,39 @@
+.card{
+ background-color:#AEB6BF;
+  margin-left:230px;
+  margin-top: 50px;
+    height: 950px;
+    border-radius: 20px;
+}
+.line{
+    
+        border: 1px solid #AEB6BF;
+      
+}
+.kid{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #5D6D7E;
+    text-align: center;
+}
+
+.area{
+    margin: 50px;
+}
+
+.swift{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.case{
+    margin:50px;
+}
+.set{
+    margin: 50px;
+}
+.go{
+    width:100%;
+    border: 2px;
+    color: #5D6D7E;
+}

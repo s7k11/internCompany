@@ -1,0 +1,107 @@
+.card-title {
+    font-size: 2em;
+    color: white;
+}
+
+#card1 {
+    background: linear-gradient(135deg, #23bdb8 0, #43e794 100%) !important;
+    color: white;
+    border-image: linear-gradient(135deg, #23bdb8 0, #43e794 100%) !important;
+}
+
+#card2 {
+    background: linear-gradient(135deg, #9a56ff 0, #e36cd9 100%) !important;
+    color: white;
+    border-image: linear-gradient(135deg, #9a56ff 0, #e36cd9 100%) !important;
+}
+
+#card3 {
+    background: linear-gradient(135deg, #f48665 0, #fda23f 100%) !important;
+    color: white;
+    border-image: linear-gradient(135deg, #f48665 0, #fda23f 100%) !important;
+}
+
+#card4 {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: white;
+    border-image: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+}
+
+#card5 {
+    background-image: linear-gradient(to left top, #05c7cf, #03b0b7, #0199a0, #008389, #006d73);
+    color: white;
+    background-image: linear-gradient(to left top, #05c7cf, #03b0b7, #0199a0, #008389, #006d73);
+}
+
+#card6 {
+    background: linear-gradient(135deg, #2b0692, #302a86) !important;
+    color: white;
+    border-image: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+}
+
+
+/* ---------------- */
+
+#card1:hover,
+#card2:hover,
+#card3:hover,
+#card4:hover,
+#card5:hover,
+#card6:hover {
+    box-shadow: 2px 2px 2px 2px #ffffff;
+}
+
+
+/* ---------------- */
+
+
+/*  */
+
+.pie {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: solid 22px transparent;
+    border-left-color: #1cc88a;
+    border-right-color: #6610f2;
+    border-top-color: #5b668a;
+    border-bottom-color: #6610f2;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-size: 100% 100%, 100% 50%;
+    background-position: center center, center bottom;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: yellow;
+}
+
+.text {
+    color: white;
+}
+
+
+/* Form Editor */
+
+
+/* #editor1 {
+    border: 3px inset grey;
+    height: 100px;
+    width: 381px;
+    margin: 10px auto 0;
+}
+
+fieldset {
+    margin: 2px auto 15px;
+    width: 358px;
+}
+
+button {
+    width: 5ex;
+    text-align: center;
+    padding: 1px 3px;
+} */
+
+
+/* ////////////////////////////////////////////////// */

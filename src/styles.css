@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    overflow-x: hidden;
+    /* padding-top: 60px; */
+    /* background-color: #2a3a4b; */
+    /* background-color: white; */
+    /* background-image: url(../src/assets/images/abc.jpg); */
+    background-image: linear-gradient(to left top, #000205, #010407, #030509, #04070b, #06080d, #06080d, #06080d, #06080d, #04070b, #030509, #010407, #000205);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* .ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+
+.ch-grid:after {
+    clear: both;
+}
+
+.ch-grid li {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 20px;
+} */

@@ -12,7 +12,7 @@ export class CompanyComponent implements OnInit {
   ngOnInit() {
   }
   chkPage:number;
-  course(){
+  cpynotes(){
     if(this.chkPage!=1){
       this.chkPage=1
     }
@@ -20,7 +20,7 @@ export class CompanyComponent implements OnInit {
       this.chkPage=0;
     }
   }
-  Resume(){
+  cpypdfs(){
     if(this.chkPage!=2){
       this.chkPage=2
     }
@@ -28,7 +28,7 @@ export class CompanyComponent implements OnInit {
       this.chkPage=0;
     }
   }
-  Report(){
+  cpyprofile(){
     if(this.chkPage!=3){
       this.chkPage=3
     }
@@ -36,7 +36,7 @@ export class CompanyComponent implements OnInit {
       this.chkPage=0;
     }
   }
-  Suggestion(){
+  cpyreqintern(){
     if(this.chkPage!=4){
       this.chkPage=4
     }
@@ -44,7 +44,7 @@ export class CompanyComponent implements OnInit {
       this.chkPage=0;
     }
   }
-  Project(){
+  cpystudentinfo(){
     if(this.chkPage!=5){
       this.chkPage=5
     }
@@ -52,7 +52,7 @@ export class CompanyComponent implements OnInit {
       this.chkPage=0;
     }
   }
-  Sudent(){
+  cpyvideolinks(){
     if(this.chkPage!=6){
       this.chkPage=6
     }

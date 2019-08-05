@@ -26,6 +26,12 @@ import { UserSuggestionComponent } from './user-suggestion/user-suggestion.compo
 import { StudentQueryComponent } from './student-query/student-query.component';
 import { StudentProjectComponent } from './student-project/student-project.component';
 import { NumUserComponent } from './num-user/num-user.component';
+import { CpyvideolinksComponent } from './cpyvideolinks/cpyvideolinks.component';
+import { CpynotesComponent } from './cpynotes/cpynotes.component';
+import { CpypdfsComponent } from './cpypdfs/cpypdfs.component';
+import { CpyprofileComponent } from './cpyprofile/cpyprofile.component';
+import { CpyreqinternComponent } from './cpyreqintern/cpyreqintern.component';
+import { CpystudentinfoComponent } from './cpystudentinfo/cpystudentinfo.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +58,13 @@ import { NumUserComponent } from './num-user/num-user.component';
     UserSuggestionComponent,
     StudentQueryComponent,
     StudentProjectComponent,
-    NumUserComponent
+    NumUserComponent,
+    CpyvideolinksComponent,
+    CpynotesComponent,
+    CpypdfsComponent,
+    CpyprofileComponent,
+    CpyreqinternComponent,
+    CpystudentinfoComponent
   ],
   imports: [
     BrowserModule,

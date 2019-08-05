@@ -3,25 +3,25 @@
         <div class="row">
             <div class="col-lg-3">
                     <ul class="list-group">
-                                    <li class="list-group-item">Users <button type="button" class="btn btn-outline-primary" (click)="users()">Users </button></li>
-                            <li class="list-group-item">Courses <button type="button" class="btn btn-outline-primary" (click)="course()">Course detail</button></li>
-                            <li class="list-group-item">Resume<button type="button"(click)="Resume()" class="btn btn-outline-primary">Resume detail</button></li>
-                            <li class="list-group-item">Report<button type="button"(click)="Report()" class="btn btn-outline-primary">Report detail</button></li>
-                            <li class="list-group-item">Suggestion<button type="button"(click)="Suggestion()" class="btn btn-outline-primary">Suggestion detail</button></li>
-                            <li class="list-group-item">Project List<button type="button"(click)="Project()" class="btn btn-outline-primary">Project detail</button></li>
-                            <li class="list-group-item">Sudent Query<button type="button"(click)="Sudent()" class="btn btn-outline-primary">Student Query detail</button></li>
+                                    <li class="list-group-item">Notes <button type="button" class="btn btn-outline-primary" (click)="cpynotes()">Notes </button></li>
+                            <li class="list-group-item">Video Links <button type="button" class="btn btn-outline-primary" (click)="cpyvideolinks()">Video Links</button></li>
+                            <li class="list-group-item">PDFs <button type="button"(click)="cpypdfs()" class="btn btn-outline-primary">PDFs</button></li>
+                            <li class="list-group-item">Profile <button type="button"(click)="cpyprofile()" class="btn btn-outline-primary">Profile</button></li>
+                            <li class="list-group-item">Request Interns <button type="button"(click)="cpyreqintern()" class="btn btn-outline-primary">Request Interns</button></li>
+                            <li class="list-group-item">Student Info <button type="button"(click)="cpystudentinfo()" class="btn btn-outline-primary">Student Info</button></li>
+                            <!-- <li class="list-group-item">Sudent Query<button type="button"(click)="Sudent()" class="btn btn-outline-primary">Student Query detail</button></li> -->
                             <!-- <li class="list-group-item">Project List</li> -->
                     </ul>
             </div>
                 
                 <div class="col-lg-9">
-                        <div class="col-lg-12" *ngIf="chkPage==1"><app-courses></app-courses></div>
-                        <div class="col-lg-12" *ngIf="chkPage==2"><app-resume></app-resume></div>
-                        <div class="col-lg-12" *ngIf="chkPage==3"><app-report></app-report></div>
-                        <div class="col-lg-12" *ngIf="chkPage==4"><app-user-suggestion></app-user-suggestion></div>
-                        <div class="col-lg-12" *ngIf="chkPage==5"><app-student-project></app-student-project></div>
-                        <div class="col-lg-12" *ngIf="chkPage==6"><app-student-query></app-student-query></div>
-                        <div class="col-lg-12" *ngIf="chkPage==7"><app-num-user></app-num-user></div>
+                        <div class="col-lg-12" *ngIf="chkPage==1"><app-cpynotes></app-cpynotes></div>
+                        <div class="col-lg-12" *ngIf="chkPage==2"><app-cpypdfs></app-cpypdfs></div>
+                        <div class="col-lg-12" *ngIf="chkPage==3"><app-cpyprofile></app-cpyprofile></div>
+                        <div class="col-lg-12" *ngIf="chkPage==4"><app-cpyreqintern></app-cpyreqintern></div>
+                        <div class="col-lg-12" *ngIf="chkPage==5"><app-cpystudentinfo></app-cpystudentinfo></div>
+                        <div class="col-lg-12" *ngIf="chkPage==6"><app-cpyvideolinks></app-cpyvideolinks></div>
+                        <!-- <div class="col-lg-12" *ngIf="chkPage==7"><app-num-user></app-num-user></div> -->
                 </div>
         </div>
     </div>
